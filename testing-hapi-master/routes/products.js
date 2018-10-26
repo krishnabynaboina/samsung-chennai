@@ -81,7 +81,7 @@ routes.push({
         auth: false,
         handler: Handlers.handlers.post,
         description: 'get products',
-        notes: 'This endpoint allows for the retrieval of products.',
+        notes: 'This endpoint allows create or update products.',
         plugins: {
             'hapi-swagger': {
                 responses: {
@@ -115,7 +115,7 @@ routes.push({
         auth: false,
         handler: Handlers.handlers.delete,
         description: 'delete products',
-        notes: 'This endpoint allows for the retrieval of products.',
+        notes: 'This endpoint allows to delete products.',
         plugins: {
             'hapi-swagger': {
                 responses: {
